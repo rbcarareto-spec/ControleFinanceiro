@@ -158,32 +158,4 @@ Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
 ------------------------------------------------------------------------
 
-## 🤝 Contribuições
-
-Contribuições são bem-vindas!\
-Siga estas etapas:
-
-1.  Faça um fork do projeto\
-
-2.  Crie uma branch para sua feature
-
-    ``` bash
-    git checkout -b feature/nova-funcionalidade
-    ```
-
-3.  Commit suas mudanças
-
-    ``` bash
-    git commit -m 'Adiciona nova funcionalidade'
-    ```
-
-4.  Push para a branch
-
-    ``` bash
-    git push origin feature/nova-funcionalidade
-    ```
-
-5.  Abra um Pull Request
-
-------------------------------------------------------------------------
 
