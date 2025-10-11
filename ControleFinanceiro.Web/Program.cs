@@ -3,11 +3,23 @@ using ControleFinanceiro.Application.Interfaces;
 using ControleFinanceiro.Infra.Data;
 using ControleFinanceiro.Infra.Repositories;
 using Microsoft.EntityFrameworkCore;
+using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+// Adiciona serviços do Swagger
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen(options =>
+{
+    //Inclui comentários XML (para gerar descrições automáticas no Swagger)
+    var xmlFilename = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
+    var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFilename);
+    if (File.Exists(xmlPath))
+        options.IncludeXmlComments(xmlPath, includeControllerXmlComments: true);
+});
 
 // DbContext
 builder.Services.AddDbContext<AppDbContext>(options =>
@@ -25,11 +37,22 @@ builder.Services.AddScoped<RelatorioService>();
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
+// --- Middleware Swagger ---
+if (app.Environment.IsDevelopment())
+{
+    app.UseSwagger();
+    app.UseSwaggerUI(options =>
+    {
+        options.DocumentTitle = "Controle Financeiro API";
+        options.SwaggerEndpoint("/swagger/v1/swagger.json", "Controle Financeiro - API v1");
+        options.RoutePrefix = "swagger"; 
+    });
+}
+
+// --- Middleware padrão ---
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Home/Error");
-    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
 }
 

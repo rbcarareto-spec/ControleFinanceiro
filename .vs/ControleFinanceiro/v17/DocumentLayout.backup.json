@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\Dell\\Desktop\\ControleFinanceiro\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B5C11528-C626-4CFA-9F17-AFD55535D9DE}|ControleFinanceiro.Web\\ControleFinanceiro.Web.csproj|c:\\users\\dell\\desktop\\controlefinanceiro\\controlefinanceiro.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5C11528-C626-4CFA-9F17-AFD55535D9DE}|ControleFinanceiro.Web\\ControleFinanceiro.Web.csproj|solutionrelative:controlefinanceiro.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5C11528-C626-4CFA-9F17-AFD55535D9DE}|ControleFinanceiro.Web\\ControleFinanceiro.Web.csproj|c:\\users\\dell\\desktop\\controlefinanceiro\\controlefinanceiro.web\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B5C11528-C626-4CFA-9F17-AFD55535D9DE}|ControleFinanceiro.Web\\ControleFinanceiro.Web.csproj|solutionrelative:controlefinanceiro.web\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B5C11528-C626-4CFA-9F17-AFD55535D9DE}|ControleFinanceiro.Web\\ControleFinanceiro.Web.csproj|c:\\users\\dell\\desktop\\controlefinanceiro\\controlefinanceiro.web\\views\\relatorios\\saldoporperiodo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{B5C11528-C626-4CFA-9F17-AFD55535D9DE}|ControleFinanceiro.Web\\ControleFinanceiro.Web.csproj|solutionrelative:controlefinanceiro.web\\views\\relatorios\\saldoporperiodo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -21,10 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{B5C11528-C626-4CFA-9F17-AFD55535D9DE}|ControleFinanceiro.Web\\ControleFinanceiro.Web.csproj|c:\\users\\dell\\desktop\\controlefinanceiro\\controlefinanceiro.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{B5C11528-C626-4CFA-9F17-AFD55535D9DE}|ControleFinanceiro.Web\\ControleFinanceiro.Web.csproj|solutionrelative:controlefinanceiro.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B5C11528-C626-4CFA-9F17-AFD55535D9DE}|ControleFinanceiro.Web\\ControleFinanceiro.Web.csproj|c:\\users\\dell\\desktop\\controlefinanceiro\\controlefinanceiro.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B5C11528-C626-4CFA-9F17-AFD55535D9DE}|ControleFinanceiro.Web\\ControleFinanceiro.Web.csproj|solutionrelative:controlefinanceiro.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,23 +38,37 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\ControleFinanceiro\\ControleFinanceiro.Web\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "ControleFinanceiro.Web\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\ControleFinanceiro\\ControleFinanceiro.Web\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "ControleFinanceiro.Web\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-11T15:07:40.668Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\ControleFinanceiro\\ControleFinanceiro.Web\\Views\\Categorias\\Create.cshtml",
               "RelativeDocumentMoniker": "ControleFinanceiro.Web\\Views\\Categorias\\Create.cshtml",
               "ToolTip": "C:\\Users\\Dell\\Desktop\\ControleFinanceiro\\ControleFinanceiro.Web\\Views\\Categorias\\Create.cshtml",
               "RelativeToolTip": "ControleFinanceiro.Web\\Views\\Categorias\\Create.cshtml",
-              "ViewState": "AgIAACEAAAAAAAAAAAAAADMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAIBJwDMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-11T14:21:49.577Z"
+              "WhenOpened": "2025-10-11T14:21:49.577Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\ControleFinanceiro\\ControleFinanceiro.Web\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "ControleFinanceiro.Web\\Views\\Shared\\_Layout.cshtml",
@@ -58,11 +76,12 @@
               "RelativeToolTip": "ControleFinanceiro.Web\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAACQAAAAAAAAAAAAowDoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-11T14:02:58.084Z"
+              "WhenOpened": "2025-10-11T14:02:58.084Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "SaldoPorPeriodo.cshtml",
               "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\ControleFinanceiro\\ControleFinanceiro.Web\\Views\\Relatorios\\SaldoPorPeriodo.cshtml",
               "RelativeDocumentMoniker": "ControleFinanceiro.Web\\Views\\Relatorios\\SaldoPorPeriodo.cshtml",
@@ -75,19 +94,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\ControleFinanceiro\\ControleFinanceiro.Web\\Program.cs",
               "RelativeDocumentMoniker": "ControleFinanceiro.Web\\Program.cs",
               "ToolTip": "C:\\Users\\Dell\\Desktop\\ControleFinanceiro\\ControleFinanceiro.Web\\Program.cs",
               "RelativeToolTip": "ControleFinanceiro.Web\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAADcAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-11T13:55:31.967Z"
+              "WhenOpened": "2025-10-11T13:55:31.967Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "RelatorioService.cs",
               "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\ControleFinanceiro\\ControleFinanceiro.Aplicacao\\Services\\RelatorioService.cs",
               "RelativeDocumentMoniker": "ControleFinanceiro.Aplicacao\\Services\\RelatorioService.cs",
@@ -95,11 +115,12 @@
               "RelativeToolTip": "ControleFinanceiro.Aplicacao\\Services\\RelatorioService.cs",
               "ViewState": "AgIAAFsAAAAAAAAAAADwv2AAAABQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-11T13:53:39.958Z"
+              "WhenOpened": "2025-10-11T13:53:39.958Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "RelatoriosController.cs",
               "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\ControleFinanceiro\\ControleFinanceiro.Web\\Controllers\\RelatoriosController.cs",
               "RelativeDocumentMoniker": "ControleFinanceiro.Web\\Controllers\\RelatoriosController.cs",
@@ -107,7 +128,8 @@
               "RelativeToolTip": "ControleFinanceiro.Web\\Controllers\\RelatoriosController.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAgwBQAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-11T13:50:37.744Z"
+              "WhenOpened": "2025-10-11T13:50:37.744Z",
+              "EditorCaption": ""
             }
           ]
         }

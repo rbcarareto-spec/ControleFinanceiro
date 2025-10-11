@@ -219,3 +219,11 @@ C:\Users\Dell\Desktop\ControleFinanceiro\ControleFinanceiro.Web\obj\Debug\net8.0
 C:\Users\Dell\Desktop\ControleFinanceiro\ControleFinanceiro.Web\obj\Debug\net8.0\ControleFinanceiro.Web.pdb
 C:\Users\Dell\Desktop\ControleFinanceiro\ControleFinanceiro.Web\obj\Debug\net8.0\ControleFinanceiro.Web.genruntimeconfig.cache
 C:\Users\Dell\Desktop\ControleFinanceiro\ControleFinanceiro.Web\obj\Debug\net8.0\ref\ControleFinanceiro.Web.dll
+C:\Users\Dell\Desktop\ControleFinanceiro\ControleFinanceiro.Web\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\Dell\Desktop\ControleFinanceiro\ControleFinanceiro.Web\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Dell\Desktop\ControleFinanceiro\ControleFinanceiro.Web\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Dell\Desktop\ControleFinanceiro\ControleFinanceiro.Web\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Dell\Desktop\ControleFinanceiro\ControleFinanceiro.Web\obj\Debug\net8.0\ControleFinanceiro.Web.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Dell\Desktop\ControleFinanceiro\ControleFinanceiro.Web\obj\Debug\net8.0\ControleFinanceiro.Web.sourcelink.json
+C:\Users\Dell\Desktop\ControleFinanceiro\ControleFinanceiro.Web\bin\Debug\net8.0\ControleFinanceiro.Web.xml
+C:\Users\Dell\Desktop\ControleFinanceiro\ControleFinanceiro.Web\obj\Debug\net8.0\ControleFinanceiro.Web.xml
