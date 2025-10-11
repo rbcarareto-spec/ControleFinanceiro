@@ -1,0 +1,131 @@
+﻿@model IEnumerable<ControleFinanceiro.Aplicacao.DTOs.TransacaoDto>
+
+@{
+    ViewData["Title"] = "Transações";
+}
+
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <h2>📋 Minhas Transações</h2>
+    <a asp-action="Create" class="btn btn-success btn-lg">
+        <i class="bi bi-plus-circle"></i> Nova Transação
+    </a>
+</div>
+
+<div class="card mb-4 shadow-sm">
+    <div class="card-body">
+        <div class="row g-3">
+            <div class="col-md-3">
+                <label class="form-label fw-bold">Data</label>
+                <input type="date" id="filtroData" class="form-control" />
+            </div>
+            <div class="col-md-3">
+                <label class="form-label fw-bold">Categoria</label>
+                <select id="filtroCategoria" class="form-select">
+                    <option value="">Todas</option>
+                    @foreach (var categoria in Model.Select(t => t.NomeCategoria).Distinct().OrderBy(c => c))
+                    {
+                        <option value="@categoria">@categoria</option>
+                    }
+                </select>
+            </div>
+            <div class="col-md-3">
+                <label class="form-label fw-bold">Tipo</label>
+                <select id="filtroTipo" class="form-select">
+                    <option value="">Todos</option>
+                    <option value="1">Receita</option>
+                    <option value="2">Despesa</option>
+                </select>
+            </div>
+            <div class="col-md-3 d-flex align-items-end">
+                <button id="btnLimpar" class="btn btn-outline-secondary w-100">Limpar Filtros</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+@if (!Model.Any())
+{
+    <div class="alert alert-info text-center py-4">
+        <i class="bi bi-inbox fs-1 text-muted mb-2"></i>
+        <div>Nenhuma transação registrada ainda.</div>
+    </div>
+}
+else
+{
+    <div class="card shadow-sm rounded border">
+        <div class="card-body p-0">
+            <table id="tabelaTransacoes" class="table table-hover align-middle" style="width:100%">
+                <thead class="table-light">
+                    <tr>
+                        <th>Descrição</th>
+                        <th>Categoria</th>
+                        <th>Tipo</th>
+                        <th>Valor</th>
+                        <th>Data</th>
+                        <th class="text-center">Ações</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td class="fw-medium">@item.Descricao</td>
+                            <td>
+                                <span class="badge bg-secondary">@item.NomeCategoria</span>
+                            </td>
+                            <td data-tipo="@((int)item.TipoCategoria)">
+                                @if (item.TipoCategoria == TipoTransacao.Receita)
+                                {
+                                    <span class="badge bg-success">Receita</span>
+                                }
+                                else
+                                {
+                                    <span class="badge bg-danger">Despesa</span>
+                                }
+                            </td>
+                            <td class="fw-bold @(item.TipoCategoria == TipoTransacao.Receita ? "text-success" : "text-danger")" data-valor="@item.Valor">
+                                @item.Valor.ToString("C")
+                            </td>
+                            <td data-data="@item.Data.ToString("yyyy-MM-dd")">@item.Data.ToString("dd/MM/yyyy")</td>
+                            <td class="text-center">
+                                <div class="btn-group" role="group" aria-label="Ações">
+                                    <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-outline-primary btn-sm" title="Editar">
+                                        <i class="bi bi-pencil"></i>
+                                    </a>
+                                    <button type="button" class="btn btn-outline-danger btn-sm" data-bs-toggle="modal" data-bs-target="#deleteModal_@item.Id" title="Excluir">
+                                        <i class="bi bi-trash"></i>
+                                    </button>
+                                </div>
+                            </td>
+                        </tr>
+
+                        <!-- Modal de Exclusão (mantido) -->
+                        <div class="modal fade" id="deleteModal_@item.Id" tabindex="-1" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title">Confirmar Exclusão</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        Tem certeza que deseja excluir a transação <strong>"@item.Descricao"</strong>?
+                                        <br />
+                                        <small class="text-muted">Essa ação é irreversível.</small>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                                        <form asp-action="Delete" asp-route-id="@item.Id" method="post" style="display:inline;">
+                                            <button type="submit" class="btn btn-danger">
+                                                <i class="bi bi-trash"></i> Excluir
+                                            </button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+}

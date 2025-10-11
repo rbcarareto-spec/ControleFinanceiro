@@ -1,0 +1,72 @@
+﻿@model IEnumerable<ControleFinanceiro.Aplicacao.DTOs.CategoriaDto>
+
+@{
+    ViewData["Title"] = "Categorias";
+}
+
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <h2>📂 Categorias</h2>
+    <a asp-action="Create" class="btn btn-success btn-lg">
+        <i class="bi bi-plus-circle"></i> Nova Categoria
+    </a>
+</div>
+
+@if (!Model.Any())
+{
+    <div class="alert alert-info text-center py-4">
+        <i class="bi bi-folder fs-1 text-muted mb-2"></i>
+        <div>Nenhuma categoria cadastrada ainda.</div>
+    </div>
+}
+else
+{
+    <div class="table-responsive shadow-sm rounded border">
+        <table class="table table-hover align-middle mb-0">
+            <thead class="table-light">
+                <tr>
+                    <th>Nome</th>
+                    <th>Tipo</th>
+                    <th>Status</th>
+                    <th class="text-center">Ações</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td class="fw-medium">@item.Nome</td>
+                        <td>
+                            @if (item.Tipo == TipoTransacao.Receita)
+                            {
+                                <span class="badge bg-success">Receita</span>
+                            }
+                            else
+                            {
+                                <span class="badge bg-danger">Despesa</span>
+                            }
+                        </td>
+                        <td>
+                            @if (item.Ativo)
+                            {
+                                <span class="badge bg-success">Ativo</span>
+                            }
+                            else
+                            {
+                                <span class="badge bg-secondary">Inativo</span>
+                            }
+                        </td>
+                        <td class="text-center">
+                            <div class="btn-group" role="group">
+
+                                <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-outline-primary btn-sm" title="Editar">
+                                    <i class="bi bi-pencil"></i>
+                                </a>
+
+                            </div>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+}
