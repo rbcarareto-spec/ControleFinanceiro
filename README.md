@@ -156,8 +156,8 @@ dotnet run --project ControleFinanceiro.Web
 ### Tabela Transação
 ![Dashboard](docs/TbTransacao.jpg)
 
-### Tabela Categorias
-![Transações](docs/TbCategoria.jpg)
+### Tabela Categoria
+![Transações](docs/TbCategorias.jpg)
 
 ------------------------------------------------------------------------
 
