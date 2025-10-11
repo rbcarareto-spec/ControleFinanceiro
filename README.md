@@ -142,19 +142,20 @@ dotnet run --project ControleFinanceiro.Web
 
 ------------------------------------------------------------------------
 
-## 🖼️ Telas
+## 🖼️ Telas do Sistema
 
-### Dashboard
+### Dashboard Financeiro
+![Dashboard](docs/Dashboard.jpg)
 
-![Dashboard](docs/dashboard.png)
+### Listagem de Transações
+![Transações](docs/Transacao.jpg)
 
-### Listagem de Transações com Filtros
+### Relatório (Exportação Excel)
+![Relatório](docs/Relatorio.jpg)
 
-![Transações](docs/transacoes.png)
+### Categorias
+![Categorias](docs/Categoria.jpg)
 
-### Relatório com Exportação Excel
-
-![Relatório](docs/relatorio.png)
 
 > As imagens acima são ilustrativas. Adicione screenshots reais na pasta
 > `docs/`.
