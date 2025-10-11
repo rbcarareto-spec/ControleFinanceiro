@@ -80,7 +80,7 @@ responsabilidades:
 #### 1️⃣ Clone o repositório
 
 ``` bash
-git clone https://github.com/seu-usuario/ControleFinanceiro.git
+git clone https://github.com/rbcarareto-spec/ControleFinanceiro.git
 cd ControleFinanceiro
 ```
 
@@ -97,7 +97,7 @@ Edite o arquivo `ControleFinanceiro.Web/appsettings.json`:
 ``` json
 {
   "ConnectionStrings": {
-    "DefaultConnection": "Server=(localdb)\\mssqllocaldb;Database=ControleFinanceiroDb;Trusted_Connection=true;MultipleActiveResultSets=true"
+    "DefaultConnection": "Server=(localdb)\\mssqllocaldb;Database=FinanceiroDb;Trusted_Connection=true;MultipleActiveResultSets=true"
   }
 }
 ```
@@ -113,13 +113,6 @@ dotnet ef database update --project ControleFinanceiro.Infra --startup-project C
 ``` bash
 dotnet run --project ControleFinanceiro.Web
 ```
-
-#### 6️⃣ Acesse no navegador
-
--   https://localhost:7000\
--   http://localhost:5000
-
-------------------------------------------------------------------------
 
 ## 📦 Pacotes Principais
 
@@ -155,10 +148,6 @@ dotnet run --project ControleFinanceiro.Web
 
 ### Categorias
 ![Categorias](docs/Categoria.jpg)
-
-
-> As imagens acima são ilustrativas. Adicione screenshots reais na pasta
-> `docs/`.
 
 ------------------------------------------------------------------------
 
