@@ -151,6 +151,16 @@ dotnet run --project ControleFinanceiro.Web
 
 ------------------------------------------------------------------------
 
+## 🖼️ Banco de Dados Populado
+
+### Tabela Transação
+![Dashboard](docs/TbTransacao.jpg)
+
+### Tabela Categorias
+![Transações](docs/TbCategoria.jpg)
+
+------------------------------------------------------------------------
+
 ## 📝 Licença
 
 Este projeto é de código aberto sob a licença **MIT**.\
