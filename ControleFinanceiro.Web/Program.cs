@@ -37,7 +37,7 @@ builder.Services.AddScoped<RelatorioService>();
 
 var app = builder.Build();
 
-// --- Middleware Swagger ---
+// --- Middleware swagger ---
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();

@@ -50,8 +50,7 @@
               "RelativeToolTip": "ControleFinanceiro.Web\\Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-11T15:07:40.668Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-11T15:07:40.668Z"
             },
             {
               "$type": "Document",
@@ -63,8 +62,7 @@
               "RelativeToolTip": "ControleFinanceiro.Web\\Views\\Categorias\\Create.cshtml",
               "ViewState": "AgIAAB4AAAAAAAAAAIBJwDMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-11T14:21:49.577Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-11T14:21:49.577Z"
             },
             {
               "$type": "Document",
@@ -76,8 +74,7 @@
               "RelativeToolTip": "ControleFinanceiro.Web\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAACQAAAAAAAAAAAAowDoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-11T14:02:58.084Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-11T14:02:58.084Z"
             },
             {
               "$type": "Document",
@@ -89,8 +86,7 @@
               "RelativeToolTip": "ControleFinanceiro.Web\\Views\\Relatorios\\SaldoPorPeriodo.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-11T13:59:15.337Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-11T13:59:15.337Z"
             },
             {
               "$type": "Document",
@@ -100,7 +96,7 @@
               "RelativeDocumentMoniker": "ControleFinanceiro.Web\\Program.cs",
               "ToolTip": "C:\\Users\\Dell\\Desktop\\ControleFinanceiro\\ControleFinanceiro.Web\\Program.cs",
               "RelativeToolTip": "ControleFinanceiro.Web\\Program.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAADQAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-11T13:55:31.967Z",
               "EditorCaption": ""
@@ -115,8 +111,7 @@
               "RelativeToolTip": "ControleFinanceiro.Aplicacao\\Services\\RelatorioService.cs",
               "ViewState": "AgIAAFsAAAAAAAAAAADwv2AAAABQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-11T13:53:39.958Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-11T13:53:39.958Z"
             },
             {
               "$type": "Document",
@@ -128,8 +123,7 @@
               "RelativeToolTip": "ControleFinanceiro.Web\\Controllers\\RelatoriosController.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAgwBQAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-11T13:50:37.744Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-11T13:50:37.744Z"
             }
           ]
         }
