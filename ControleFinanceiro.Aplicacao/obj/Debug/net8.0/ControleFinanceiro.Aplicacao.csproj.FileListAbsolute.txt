@@ -28,3 +28,4 @@ C:\Users\Dell\Desktop\ControleFinanceiro\ControleFinanceiro.Aplicacao\obj\Debug\
 C:\Users\Dell\Desktop\ControleFinanceiro\ControleFinanceiro.Aplicacao\obj\Debug\net8.0\refint\ControleFinanceiro.Aplicacao.dll
 C:\Users\Dell\Desktop\ControleFinanceiro\ControleFinanceiro.Aplicacao\obj\Debug\net8.0\ControleFinanceiro.Aplicacao.pdb
 C:\Users\Dell\Desktop\ControleFinanceiro\ControleFinanceiro.Aplicacao\obj\Debug\net8.0\ref\ControleFinanceiro.Aplicacao.dll
+C:\Users\Dell\Desktop\ControleFinanceiro\ControleFinanceiro.Aplicacao\obj\Debug\net8.0\ControleFinanceiro.Aplicacao.sourcelink.json

@@ -36,3 +36,4 @@ C:\Users\Dell\Desktop\ControleFinanceiro\ControleFinanceiro.Infra\obj\Debug\net8
 C:\Users\Dell\Desktop\ControleFinanceiro\ControleFinanceiro.Infra\obj\Debug\net8.0\ControleFinanceiro.Infra.pdb
 C:\Users\Dell\Desktop\ControleFinanceiro\ControleFinanceiro.Infra\obj\Debug\net8.0\ControleFinanceiro.Infra.genruntimeconfig.cache
 C:\Users\Dell\Desktop\ControleFinanceiro\ControleFinanceiro.Infra\obj\Debug\net8.0\ref\ControleFinanceiro.Infra.dll
+C:\Users\Dell\Desktop\ControleFinanceiro\ControleFinanceiro.Infra\obj\Debug\net8.0\ControleFinanceiro.Infra.sourcelink.json

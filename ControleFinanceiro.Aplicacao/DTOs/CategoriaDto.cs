@@ -12,5 +12,6 @@ namespace ControleFinanceiro.Aplicacao.DTOs
         public string Nome { get; set; } = string.Empty;
         public TipoTransacao Tipo { get; set; }
         public bool Ativo { get; set; }
+        public string NomeExibicao => $"{Nome} ({(Tipo == TipoTransacao.Receita ? "Receita" : "Despesa")})";
     }
 }
