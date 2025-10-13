@@ -3,16 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Dell\\Desktop\\ControleFinanceiro\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B5C11528-C626-4CFA-9F17-AFD55535D9DE}|ControleFinanceiro.Web\\ControleFinanceiro.Web.csproj|c:\\users\\dell\\desktop\\controlefinanceiro\\controlefinanceiro.web\\views\\transacoes\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B5C11528-C626-4CFA-9F17-AFD55535D9DE}|ControleFinanceiro.Web\\ControleFinanceiro.Web.csproj|solutionrelative:controlefinanceiro.web\\views\\transacoes\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B5C11528-C626-4CFA-9F17-AFD55535D9DE}|ControleFinanceiro.Web\\ControleFinanceiro.Web.csproj|c:\\users\\dell\\desktop\\controlefinanceiro\\controlefinanceiro.web\\views\\transacoes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B5C11528-C626-4CFA-9F17-AFD55535D9DE}|ControleFinanceiro.Web\\ControleFinanceiro.Web.csproj|solutionrelative:controlefinanceiro.web\\views\\transacoes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ABB17066-96B0-467F-8B19-1638D6490AA4}|ControleFinanceiro.Aplicacao\\ControleFinanceiro.Aplicacao.csproj|c:\\users\\dell\\desktop\\controlefinanceiro\\controlefinanceiro.aplicacao\\dtos\\categoriadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ABB17066-96B0-467F-8B19-1638D6490AA4}|ControleFinanceiro.Aplicacao\\ControleFinanceiro.Aplicacao.csproj|solutionrelative:controlefinanceiro.aplicacao\\dtos\\categoriadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B5C11528-C626-4CFA-9F17-AFD55535D9DE}|ControleFinanceiro.Web\\ControleFinanceiro.Web.csproj|c:\\users\\dell\\desktop\\controlefinanceiro\\controlefinanceiro.web\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{B5C11528-C626-4CFA-9F17-AFD55535D9DE}|ControleFinanceiro.Web\\ControleFinanceiro.Web.csproj|solutionrelative:controlefinanceiro.web\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,40 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\ControleFinanceiro\\ControleFinanceiro.Web\\Views\\Transacoes\\Edit.cshtml",
-              "RelativeDocumentMoniker": "ControleFinanceiro.Web\\Views\\Transacoes\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\Dell\\Desktop\\ControleFinanceiro\\ControleFinanceiro.Web\\Views\\Transacoes\\Edit.cshtml",
-              "RelativeToolTip": "ControleFinanceiro.Web\\Views\\Transacoes\\Edit.cshtml",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAADYAAABZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-13T11:18:39.907Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\ControleFinanceiro\\ControleFinanceiro.Web\\Views\\Transacoes\\Create.cshtml",
-              "RelativeDocumentMoniker": "ControleFinanceiro.Web\\Views\\Transacoes\\Create.cshtml",
-              "ToolTip": "C:\\Users\\Dell\\Desktop\\ControleFinanceiro\\ControleFinanceiro.Web\\Views\\Transacoes\\Create.cshtml",
-              "RelativeToolTip": "ControleFinanceiro.Web\\Views\\Transacoes\\Create.cshtml",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAACwAAACIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-13T11:18:31.636Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CategoriaDto.cs",
-              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\ControleFinanceiro\\ControleFinanceiro.Aplicacao\\DTOs\\CategoriaDto.cs",
-              "RelativeDocumentMoniker": "ControleFinanceiro.Aplicacao\\DTOs\\CategoriaDto.cs",
-              "ToolTip": "C:\\Users\\Dell\\Desktop\\ControleFinanceiro\\ControleFinanceiro.Aplicacao\\DTOs\\CategoriaDto.cs",
-              "RelativeToolTip": "ControleFinanceiro.Aplicacao\\DTOs\\CategoriaDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-13T11:17:52.085Z",
+              "Title": "site.js",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\ControleFinanceiro\\ControleFinanceiro.Web\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "ControleFinanceiro.Web\\wwwroot\\js\\site.js",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\ControleFinanceiro\\ControleFinanceiro.Web\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "ControleFinanceiro.Web\\wwwroot\\js\\site.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-10-13T11:53:22.559Z",
               "EditorCaption": ""
             }
           ]

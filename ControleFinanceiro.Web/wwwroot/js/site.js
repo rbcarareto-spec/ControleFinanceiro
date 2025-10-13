@@ -1,9 +1,7 @@
 ﻿$(document).ready(function () {
 
-    // Só executa se a tabela existir na página
     if ($('#tabelaTransacoes').length) {
 
-        // --- 1️ Registra o filtro customizado ---
         $.fn.dataTable.ext.search.push(function (settings, data, dataIndex) {
             var categoriaColuna = $(settings.aoData[dataIndex].anCells[1]).text().trim();
             var tipoColuna = $(settings.aoData[dataIndex].anCells[2]).data('tipo');
@@ -13,9 +11,17 @@
             var filtroCategoria = $('#filtroCategoria').val();
             var filtroTipo = $('#filtroTipo').val();
 
-            // --- Filtro por data ---
-            if (filtroData && new Date(dataAttr) > new Date(filtroData)) {
-                return false;
+            // --- Filtro por data (igual) ---
+            if (filtroData) {
+                const dataLinha = new Date(dataAttr);
+                const dataFiltro = new Date(filtroData);
+
+                dataLinha.setHours(0, 0, 0, 0);
+                dataFiltro.setHours(0, 0, 0, 0);
+
+                if (dataLinha.getTime() !== dataFiltro.getTime()) {
+                    return false;
+                }
             }
 
             // --- Filtro por categoria ---
@@ -31,7 +37,6 @@
             return true;
         });
 
-        // --- 2️ Cria a tabela ---
         var tabela = $('#tabelaTransacoes').DataTable({
             language: {
                 url: "//cdn.datatables.net/plug-ins/2.0.8/i18n/pt-BR.json"
@@ -42,7 +47,6 @@
             columnDefs: [{ orderable: false, targets: 5 }]
         });
 
-        // --- 3️ Eventos de filtro ---
         $('#filtroData, #filtroCategoria, #filtroTipo').on('change', function () {
             tabela.draw();
         });
