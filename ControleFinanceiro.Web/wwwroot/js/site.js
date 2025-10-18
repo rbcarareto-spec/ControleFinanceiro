@@ -3,6 +3,7 @@
     if ($('#tabelaTransacoes').length) {
 
         $.fn.dataTable.ext.search.push(function (settings, data, dataIndex) {
+
             var categoriaColuna = $(settings.aoData[dataIndex].anCells[1]).text().trim();
             var tipoColuna = $(settings.aoData[dataIndex].anCells[2]).data('tipo');
             var dataAttr = $(settings.aoData[dataIndex].anCells[4]).data('data');
@@ -10,6 +11,7 @@
             var filtroData = $('#filtroData').val();
             var filtroCategoria = $('#filtroCategoria').val();
             var filtroTipo = $('#filtroTipo').val();
+  
 
             // --- Filtro por data (igual) ---
             if (filtroData) {
