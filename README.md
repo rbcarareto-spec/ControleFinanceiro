@@ -151,7 +151,7 @@ dotnet run --project ControleFinanceiro.Web
 
 ------------------------------------------------------------------------
 
-## 🖼️ Banco de Dados Populado
+## 🖼️ Banco de Dados com Informações
 
 ### Tabela Transação
 ![Dashboard](docs/TbTransacao.jpg)
