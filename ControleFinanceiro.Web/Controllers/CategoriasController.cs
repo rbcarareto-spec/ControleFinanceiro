@@ -42,6 +42,7 @@ namespace ControleFinanceiro.Web.Controllers
                     await _categoriaService.AdicionarAsync(dto);
 
                     TempData["MensagemSucesso"] = "Categoria cadastrada com sucesso menos e mais!";
+
                     return RedirectToAction(nameof(Index));
                 }
                 catch (ArgumentException ex)
